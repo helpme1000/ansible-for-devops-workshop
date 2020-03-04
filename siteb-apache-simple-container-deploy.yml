@@ -2,6 +2,7 @@
 - name: Deploy Site-B
   hosts: siteb
   become: yes
+  become_user: student8
 
   tasks:
   - name: install docker preqequisities
